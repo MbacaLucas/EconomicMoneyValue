@@ -53,13 +53,23 @@ int main()
         std::cout << "====================================\n";
         std::cout << "Ingresa cuanta plata tienes: ";
         std::cin >> currentAmount;
-        std::cout << "Ingresa el año de comparacion (ej: 2024): ";
+        std::cout << "Ingresa el año de comparacion (Entre 2020-24): ";
         std::cin >> year;
         std::cout << '\n';
 
         // Map historical CPI points for Chile (Source: INE)
         switch (year)
         {
+        case 2020:
+        {
+            ipc = 83.0;
+            unemployment = 10.7;
+        }
+        case 2021:
+        {
+            ipc = 89.5;
+            unemployment = 8.1;
+        }
         case 2022:
         {
             ipc = 89.5;
