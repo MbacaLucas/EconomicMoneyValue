@@ -1,4 +1,4 @@
-# 🇨🇱 Chile Economic Analyzer (consoleApp- not with API...yet )
+# 🇨🇱 Chile Economic Analyzer (consoleApp- not API...yet )
 
 Una herramienta de terminal interactiva diseñada para analizar la pérdida del poder adquisitivo y la situación laboral en Chile entre 2022 y 2026. Utiliza datos reales del **IPC (Índice de Precios al Consumidor)** y la **Tasa de Desempleo** proporcionados por el INE.
 
